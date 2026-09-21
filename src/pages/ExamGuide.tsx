@@ -28,11 +28,17 @@ export default function ExamGuide() {
   return (
     <div className="guide-page min-h-screen bg-background">
       <style>{`
-        @page { size: A4; margin: 12mm 12mm 14mm; }
+        /* هامش الصفحة صفر = المتصفح لا يطبع ترويسته (التاريخ/العنوان) ولا تذييله (الرابط/رقم الصفحة)؛ الهوامش نضيفها داخليًا */
+        @page { size: A4; margin: 0; }
         @media print {
           .no-print { display: none !important; }
           .guide-page, body { background: #fff !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-          .guide-page main { padding: 0 !important; max-width: none !important; font-size: 12.5px; }
+          .guide-page main { padding: 12mm 13mm 14mm !important; max-width: none !important; font-size: 12.5px; }
+          /* الشعار في وسط الغلاف عند الطباعة */
+          .guide-cover { text-align: center; }
+          .guide-cover .guide-logo { margin-inline: auto !important; }
+          .guide-cover p { margin-inline: auto; }
+          .guide-cover .guide-chips { justify-content: center; }
           .guide-page main > * + * { margin-top: 10px !important; }
           .guide-section, .guide-toc, .guide-cover { padding: 12px 16px !important; border-radius: 10px !important; }
           .guide-section h2 { font-size: 15px; margin-bottom: 6px; }
@@ -63,10 +69,10 @@ export default function ExamGuide() {
       <main className="mx-auto max-w-4xl space-y-6 px-4 py-8">
         {/* الغلاف */}
         <div className="guide-cover rounded-2xl brand-gradient p-6 text-white shadow-lg">
-          <div className="mb-3 w-fit rounded-lg bg-white p-2"><Logo size="md" /></div>
+          <div className="guide-logo mb-3 w-fit rounded-lg bg-white p-2"><Logo size="md" /></div>
           <h1 className="text-2xl font-extrabold md:text-3xl">{t("studentGuide")}</h1>
           <p className="mt-2 max-w-2xl text-white/85">{t("guideIntro")}</p>
-          <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          <div className="guide-chips mt-4 flex flex-wrap gap-2 text-sm">
             <span className="rounded-full bg-white/15 px-3 py-1">⏱ {t("duration")}: {vars.duration} {t("minutes")}{vars.extra ? ` (${t("extraLabel")} ${vars.extra})` : ""}</span>
             <span className="rounded-full bg-white/15 px-3 py-1">🖥 {t("maxFullscreenExits")}: {vars.exits}</span>
             <span className="rounded-full bg-white/15 px-3 py-1">📷 {t("snapshotInterval")}: {vars.snapshot}</span>
