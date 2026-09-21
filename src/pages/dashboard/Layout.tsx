@@ -5,7 +5,7 @@ import { LanguageSwitcher, Logo } from "@/components/shared";
 import { Button } from "@/components/ui/button";
 import {
   LayoutDashboard, FileEdit, Database, BrainCircuit, Eye, ClipboardCheck,
-  Trophy, Users, GraduationCap, ScrollText, LogOut, Menu, X, Award,
+  Trophy, Users, GraduationCap, ScrollText, LogOut, Menu, X, Award, ExternalLink,
 } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
@@ -104,7 +104,16 @@ export default function DashboardLayout() {
             </button>
             <h1 className="text-lg font-bold text-brand">{t("platformShort")} — {t("dashboard")}</h1>
           </div>
-          <LanguageSwitcher />
+          <div className="flex items-center gap-2">
+            {/* الرجوع إلى الموقع (صفحة الزائر) بتبويب جديد دون مغادرة لوحة التحكم */}
+            <a href="/" target="_blank" rel="noreferrer">
+              <Button variant="outline" size="sm" className="gap-2 border-brand text-brand hover:bg-brand hover:text-white">
+                <ExternalLink className="h-4 w-4" />
+                <span className="hidden sm:inline">{t("visitSite")}</span>
+              </Button>
+            </a>
+            <LanguageSwitcher />
+          </div>
         </header>
         <main className="flex-1 p-4 md:p-6">
           <Outlet />

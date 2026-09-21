@@ -525,6 +525,7 @@ const dict = {
   iReadInstructions: { ar: "قرأت تعليمات الاختبار والقواعد الأساسية وفهمتها", en: "I have read and understood the exam instructions and key rules" },
   helpRules: { ar: "التعليمات", en: "Instructions" },
   guideFooter: { ar: "هذا الدليل جزء من سياسة الاختبار المعتمدة", en: "This guide is part of the approved exam policy" },
+  visitSite: { ar: "الموقع", en: "Site" },
   explanationLabel: { ar: "الشرح / التعليل", en: "Explanation / rationale" },
   graderOnly: { ar: "يراه المصحّح فقط", en: "grader only" },
   templateNote4: { ar: "الأرقام المكررة (هوية موجودة مسبقًا) تُتخطى تلقائيًا ولا تُستبدل.", en: "Duplicate national IDs already in the system are skipped, not replaced." },
