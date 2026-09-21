@@ -16,7 +16,7 @@
 | الاستضافة | Hostinger — Deploy Web App (إطار Hono، Node 22) — الموقع `white-dolphin-104720.hostingersite.com` (سيُربط بـ `exam.pfellowships.sa`) |
 | آخر نشر ناجح | `zamalat-DEPLOY-FINAL.zip` — 2026‑08‑25 10:55 — الحالة Current |
 | **حالة الكود المحلي** | **أحدث من المنشور**: دفعة ملاحظات العميل 2026‑09‑17 (11 بنداً — انظر §4‑ب) جاهزة في `zamalat-DEPLOY-2026-09-17.zip` وتنتظر تطبيق migration `db/migrations/2026-09-client-review-batch.sql` ثم Redeploy |
-| المستودع | ليس git repo. النسخ بملفات zip مؤرّخة |
+| المستودع | **git repo** مرتبط بـ `https://github.com/meadiaimpactb-cell/zamalat-exams` (خاص، فرع `main`). الأسرار ونسخ القاعدة والحزم مستثناة في `.gitignore` (ملفات الترحيل تُرفع). النشر على هوستنجر ما زال بحزمة zip مؤرّخة |
 | الوثيقة المرجعية الكاملة | `وثيقة-المتطلبات-الفنية-الشاملة.pdf` (32 صفحة: المخطط، الـ API، القواعد، الحدود) |
 
 > **تنبيه:** يوجد مسار عمل موازٍ ومنفصل — إعادة بناء هذه الوحدة داخل منصة Laravel في `C:\laragon\www\Professional_Fellowships_Platform` (برومبت `docs/BUILD-PROMPT-exams-module-v2.md`). **لا تخلط بينهما.** هذه الجلسة تخصّ النسخة TypeScript المنشورة فقط.
