@@ -26,7 +26,7 @@ async function gradeObjective(
     const ansSet = new Set((answer as string[]) ?? []);
     if (correctSet.size === 0) return 0;
     let good = 0, bad = 0;
-    for (const a of ansSet) (correctSet.has(a) ? good++ : bad++);
+    for (const a of ansSet) { if (correctSet.has(a)) good++; else bad++; }
     const ratio = Math.max(0, (good - bad * 0.5) / correctSet.size);
     return Math.round(ratio * points * 100) / 100;
   }

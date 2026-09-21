@@ -3,27 +3,11 @@ import { Link, useSearchParams } from "react-router";
 import { useI18n } from "@/i18n";
 import { LanguageSwitcher, Logo } from "@/components/shared";
 import { Button } from "@/components/ui/button";
-import { guideSections, quickRules, fillVars, DEFAULT_VARS, type GuideVars } from "@/content/studentGuide";
+import { guideSections, quickRules, fillVars } from "@/content/studentGuide";
+import { useGuideVars } from "@/lib/guideVars";
 import { Laptop, LogIn, ClipboardList, Monitor, ListChecks, ShieldCheck, Timer, Wifi, LockKeyhole, Send, Trophy, HelpCircle, Printer, ArrowRight, ArrowLeft, AlertTriangle } from "lucide-react";
 
 const ICONS = { laptop: Laptop, login: LogIn, clipboard: ClipboardList, monitor: Monitor, list: ListChecks, shield: ShieldCheck, timer: Timer, wifi: Wifi, lock: LockKeyhole, send: Send, trophy: Trophy, help: HelpCircle };
-
-/** يقرأ إعدادات الاختبار من جلسة الدخول (إن وُجدت) ليُظهر الأرقام الفعلية للطالب */
-export function useGuideVars(): GuideVars {
-  try {
-    const raw = sessionStorage.getItem("exam_access");
-    if (!raw) return DEFAULT_VARS;
-    const a = JSON.parse(raw) as { info?: { exam?: { durationMin?: number; maxFullscreenExits?: number; snapshotIntervalSec?: number }; extraTimeMin?: number } };
-    const e = a.info?.exam ?? {};
-    const extra = a.info?.extraTimeMin ?? 0;
-    return {
-      duration: (e.durationMin ?? DEFAULT_VARS.duration) as number + extra,
-      exits: e.maxFullscreenExits === 0 ? "∞" : (e.maxFullscreenExits ?? DEFAULT_VARS.exits),
-      snapshot: e.snapshotIntervalSec ?? DEFAULT_VARS.snapshot,
-      extra,
-    };
-  } catch { return DEFAULT_VARS; }
-}
 
 /**
  * دليل الطالب الكامل للاختبار الشامل (طلب الإدارة): 12 قسمًا بالعربية والإنجليزية، فهرس، وقابل للطباعة.

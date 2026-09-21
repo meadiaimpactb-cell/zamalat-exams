@@ -143,7 +143,7 @@ export default function QuestionBank() {
   const selectedReviewable = allQuestions.filter((q) => selected.has(q.id) && canReview(q)).map((q) => q.id);
   // من بين المحدد: المسودات (قابلة للإرسال للمراجعة)
   const selectedDrafts = allQuestions.filter((q) => selected.has(q.id) && q.status === "draft").map((q) => q.id);
-  const toggleSelect = (id: number) => setSelected((s) => { const n = new Set(s); n.has(id) ? n.delete(id) : n.add(id); return n; });
+  const toggleSelect = (id: number) => setSelected((s) => { const n = new Set(s); if (n.has(id)) n.delete(id); else n.add(id); return n; });
 
   const closeQuestion = () => { setCreateOpen(false); setEditingQuestionId(null); setForm(emptyQForm); };
   const openQuestionCreate = () => { setEditingQuestionId(null); setForm(emptyQForm); setCreateOpen(true); };

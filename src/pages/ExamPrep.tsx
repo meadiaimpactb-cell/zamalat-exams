@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { MonitorCheck, Wifi, Camera, ScreenShare, Loader2, ShieldCheck, BookOpen, AlertTriangle } from "lucide-react";
 import { quickRules, fillVars } from "@/content/studentGuide";
-import { useGuideVars } from "@/pages/ExamGuide";
+import { useGuideVars } from "@/lib/guideVars";
 
 type AccessInfo = {
   code: string;

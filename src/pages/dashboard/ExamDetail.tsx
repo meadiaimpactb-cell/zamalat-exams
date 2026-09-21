@@ -42,7 +42,7 @@ export default function ExamDetail() {
   });
   // تحديد متعدد لأسئلة الاختبار (حذف جماعي)
   const [selQ, setSelQ] = useState<Set<number>>(new Set());
-  const toggleQ = (id: number) => setSelQ((s) => { const n = new Set(s); n.has(id) ? n.delete(id) : n.add(id); return n; });
+  const toggleQ = (id: number) => setSelQ((s) => { const n = new Set(s); if (n.has(id)) n.delete(id); else n.add(id); return n; });
   const assignSup = trpc.exam.assignSupervisor.useMutation({ onSuccess: invalidate, onError: (e) => toast.error(e.message) });
   const removeSup = trpc.exam.removeSupervisor.useMutation({ onSuccess: invalidate });
   const registerByNid = trpc.exam.registerByNationalId.useMutation({

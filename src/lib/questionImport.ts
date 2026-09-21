@@ -30,17 +30,17 @@ const AR_LETTER_MAP: Record<string, number> = { "أ": 0, "ا": 0, "إ": 0, "آ":
 const AR_DIGITS = "٠١٢٣٤٥٦٧٨٩";
 const toLatinDigits = (s: string) => s.replace(/[٠-٩]/g, (d) => String(AR_DIGITS.indexOf(d)));
 
-const RE_QNUM = /^\s*(?:س|سؤال|Q|Question)?\s*[\(\[]?(\d{1,3})[\)\]\.\-:،/]\s*(.*)$/i;
-const RE_OPTION = /^\s*[\(\[]?(هـ|[أاإآبجدهوزحطي]|[A-Ja-j])\s*[\)\]\.\-:،]\s+(.+)$/;
-const RE_BULLET = /^\s*[•\-*○□▪◦]\s+(.+)$/;
-const RE_ANSWER = /^\s*(?:الإجابة الصحيحة|الاجابة الصحيحة|الإجابة|الاجابة|الجواب الصحيح|الجواب|الحل|المفتاح|Answer|Ans|Correct(?: answer)?|Key)\s*[:：\-]?\s*(.+)$/i;
-const RE_COMPETENCY = /^\s*(?:الكفاءة|المجال|المحور|الموضوع|Competency|Topic|Domain)\s*[:：\-]\s*(.+)$/i;
-const RE_EXPLANATION = /^\s*(?:الشرح|التعليل|التفسير|Explanation|Rationale)\s*[:：\-]\s*(.+)$/i;
-const RE_DIFFICULTY = /^\s*(?:الصعوبة|المستوى|Difficulty|Level)\s*[:：\-]\s*(.+)$/i;
-const RE_MODEL = /^\s*(?:الإجابة النموذجية|الاجابة النموذجية|نموذج الإجابة|الإجابة المتوقعة|Model answer|Rubric)\s*[:：\-]?\s*(.+)$/i;
-const RE_POINTS = /[\(\[]\s*(\d+(?:\.\d+)?)\s*(?:درجة|درجات|درجتان|درجتين|نقطة|نقاط|نقطتان|نقطتين|علامة|علامات|pts?|points?|marks?)?\s*[\)\]]\s*$/i;
+const RE_QNUM = /^\s*(?:س|سؤال|Q|Question)?\s*[([]?(\d{1,3})[)\].:،/-]\s*(.*)$/i;
+const RE_OPTION = /^\s*[([]?(هـ|[أاإآبجدهوزحطي]|[A-Ja-j])\s*[)\].:،-]\s+(.+)$/;
+const RE_BULLET = /^\s*[•*○□▪◦-]\s+(.+)$/;
+const RE_ANSWER = /^\s*(?:الإجابة الصحيحة|الاجابة الصحيحة|الإجابة|الاجابة|الجواب الصحيح|الجواب|الحل|المفتاح|Answer|Ans|Correct(?: answer)?|Key)\s*[:：-]?\s*(.+)$/i;
+const RE_COMPETENCY = /^\s*(?:الكفاءة|المجال|المحور|الموضوع|Competency|Topic|Domain)\s*[:：-]\s*(.+)$/i;
+const RE_EXPLANATION = /^\s*(?:الشرح|التعليل|التفسير|Explanation|Rationale)\s*[:：-]\s*(.+)$/i;
+const RE_DIFFICULTY = /^\s*(?:الصعوبة|المستوى|Difficulty|Level)\s*[:：-]\s*(.+)$/i;
+const RE_MODEL = /^\s*(?:الإجابة النموذجية|الاجابة النموذجية|نموذج الإجابة|الإجابة المتوقعة|Model answer|Rubric)\s*[:：-]?\s*(.+)$/i;
+const RE_POINTS = /[([]\s*(\d+(?:\.\d+)?)\s*(?:درجة|درجات|درجتان|درجتين|نقطة|نقاط|نقطتان|نقطتين|علامة|علامات|pts?|points?|marks?)?\s*[)\]]\s*$/i;
 const RE_TYPE = /\[\s*(مقالي|مقالية|صح\s*\/?\s*(?:أو|او|أم|ام)?\s*خطأ|صح\/خطأ|اختيار متعدد|متعدد|اختيار|اختيار من متعدد|قصير|قصيرة|رقمي|رقمية|essay|tf|true\/?false|mcq|single|multiple|short|numeric)\s*\]/i;
-const RE_CORRECT_MARK = /(^\s*[*✓✔√]+\s*|\s*[*✓✔√]+\s*$|\s*[\(\[]\s*(?:صح|صحيح|صحيحة|correct|✓)\s*[\)\]]\s*$)/i;
+const RE_CORRECT_MARK = /(^\s*[*✓✔√]+\s*|\s*[*✓✔√]+\s*$|\s*[([]\s*(?:صح|صحيح|صحيحة|correct|✓)\s*[)\]]\s*$)/i;
 const TRUE_WORDS = /^(صح|صحيح|صحيحة|نعم|true|t|yes)$/i;
 const FALSE_WORDS = /^(خطأ|خاطئ|خاطئة|لا|false|f|no)$/i;
 
@@ -83,7 +83,7 @@ function finalizeBlock(b: Block): ImportedQuestion | null {
   const pm = RE_POINTS.exec(text);
   if (pm) { points = Math.max(1, Math.round(parseFloat(pm[1]))); text = text.replace(RE_POINTS, "").trim(); }
   // إزالة الترقيم من بداية السؤال
-  text = text.replace(/^\s*(?:س|سؤال|Q|Question)?\s*[\(\[]?\d{1,3}[\)\]\.\-:،/]\s*/i, "").trim();
+  text = text.replace(/^\s*(?:س|سؤال|Q|Question)?\s*[([]?\d{1,3}[)\].:،/-]\s*/i, "").trim();
   if (text.length < 3) return null;
 
   // الخيارات
@@ -94,9 +94,9 @@ function finalizeBlock(b: Block): ImportedQuestion | null {
 
   // سطر الإجابة → مؤشرات
   let answerIdx: number[] = [];
-  let answerRaw = b.answer?.trim() ?? "";
+  const answerRaw = b.answer?.trim() ?? "";
   if (answerRaw) {
-    const parts = toLatinDigits(answerRaw).split(/[,،\/&+]|\s+و\s+|\s+and\s+|\s+/i).map((p) => p.trim().replace(/[\)\.\-:]$/, "")).filter(Boolean);
+    const parts = toLatinDigits(answerRaw).split(/[,،/&+]|\s+و\s+|\s+and\s+|\s+/i).map((p) => p.trim().replace(/[).:-]$/, "")).filter(Boolean);
     for (const p of parts) {
       const li = letterIndex(p);
       if (li !== null && li < opts.length) answerIdx.push(li);
@@ -152,7 +152,7 @@ export function parseBlocks(text: string): ImportedQuestion[] {
   let lastBlank = true;
   const mk = (first: string): Block => { const b: Block = { text: [first], options: [] }; blocks.push(b); return b; };
   for (const raw of lines) {
-    const line = raw.replace(/‏|‎|﻿/g, "").trimEnd();
+    const line = raw.replace(/\u200f|\u200e|\ufeff/g, "").trimEnd();
     if (!line.trim()) { lastBlank = true; continue; }
     if (/^\s*(#|\/\/)/.test(line)) continue; // سطر تعليق/عنوان ملف — يُتجاهل
     const ln = toLatinDigits(line);
@@ -237,7 +237,7 @@ export function parseRows(rows: string[][]): ImportedQuestion[] {
     const rest = cells.slice(1);
     // آخر خلية رقمية صغيرة = الدرجة؛ الخلية التي تسبقها (حرف/رقم قصير) = الإجابة
     let points = 1;
-    let tail = [...rest];
+    const tail = [...rest];
     if (tail.length >= 2 && /^\d+(\.\d+)?$/.test(tail[tail.length - 1]) && Number(tail[tail.length - 1]) <= 100 && !/^\d+$/.test(tail[tail.length - 2] || "x")) {
       points = Math.max(1, Math.round(Number(tail.pop()!)));
     }

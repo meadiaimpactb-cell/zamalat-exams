@@ -127,7 +127,7 @@ export default function Users() {
             <CardContent className="flex flex-wrap items-center justify-between gap-3 p-4">
               <div className="flex items-center gap-3">
                 {u.role !== "super_admin" && (
-                  <input type="checkbox" className="h-4 w-4" checked={selected.has(u.id)} onChange={() => setSelected((s) => { const n = new Set(s); n.has(u.id) ? n.delete(u.id) : n.add(u.id); return n; })} />
+                  <input type="checkbox" className="h-4 w-4" checked={selected.has(u.id)} onChange={() => setSelected((s) => { const n = new Set(s); if (n.has(u.id)) n.delete(u.id); else n.add(u.id); return n; })} />
                 )}
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-full border bg-secondary">
                   {u.avatarUrl ? <img src={u.avatarUrl} alt={u.nameAr} className="h-full w-full object-cover" /> : <UsersIcon className="h-5 w-5 text-muted-foreground" />}

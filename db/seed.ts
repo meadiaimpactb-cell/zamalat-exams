@@ -54,7 +54,7 @@ async function seed() {
 
   // ---------- Questions ----------
   const existingQs = await db.select().from(schema.questions).where(eq(schema.questions.bankId, bank.id));
-  let questionIds: number[] = existingQs.map((q) => q.id);
+  const questionIds: number[] = existingQs.map((q) => q.id);
   if (existingQs.length === 0) {
     const qs: Array<Record<string, unknown>> = [
       {

@@ -433,7 +433,7 @@ export default function ExamRunner() {
   };
 
   // ---------- submit ----------
-  const doSubmit = async (auto: boolean) => {
+  async function doSubmit(auto: boolean) {
     if (submittedRef.current || !token) return;
     submittedRef.current = true;
     // أرسل الإجابات المعلّقة أولًا حتى لا يُسلَّم الاختبار ناقصًا
@@ -453,15 +453,15 @@ export default function ExamRunner() {
       /* already submitted */
     }
     finishAndLeave();
-  };
+  }
 
-  const finishAndLeave = () => {
+  function finishAndLeave() {
     (window as unknown as { secureExam?: { examFinished: () => void } }).secureExam?.examFinished();
     try { localStorage.removeItem(pendingKey); } catch { /* ignore */ }
     sessionStorage.removeItem("exam_token");
     if (document.fullscreenElement) document.exitFullscreen?.().catch(() => {});
     navigate("/exam/done", { replace: true });
-  };
+  }
 
   const questions = useMemo(() => state.data?.questions ?? [], [state.data]);
   const q = questions[current];
