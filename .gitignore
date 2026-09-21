@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.env
+*.log
+desktop/node_modules/
+desktop/dist/
+.vite/
+.vite-temp/
+
+# أسرار الإنتاج — لا تُرفع أبدًا
+PRODUCTION-DOTENV.env
+*.env.production
+
+# نسخ قاعدة البيانات — تحتوي هاشات كلمات المرور وأرقام الهويات
+*.sql
+*.sql.err
+# ملفات الترحيل (schema فقط، بلا بيانات) تُرفع
+!db/migrations/*.sql
+
+# حزم النشر وملفات Office المؤقتة
+*.zip
+~$*

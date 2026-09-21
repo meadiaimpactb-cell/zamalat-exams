@@ -1,0 +1,2582 @@
+[
+  {
+    "type": "single",
+    "textAr": "ما المستند الذي يُخوِّل رسميًا بدء المشروع ويمنح مدير المشروع صلاحية استخدام الموارد؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "ميثاق المشروع",
+        "textEn": "ميثاق المشروع"
+      },
+      {
+        "id": "B",
+        "textAr": "خطة إدارة المشروع",
+        "textEn": "خطة إدارة المشروع"
+      },
+      {
+        "id": "C",
+        "textAr": "بيان نطاق المشروع",
+        "textEn": "بيان نطاق المشروع"
+      },
+      {
+        "id": "D",
+        "textAr": "سجل أصحاب المصلحة",
+        "textEn": "سجل أصحاب المصلحة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكامل"
+  },
+  {
+    "type": "single",
+    "textAr": "في أي مجموعة عمليات يتم تحديد أصحاب المصلحة لأول مرة؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "البدء",
+        "textEn": "البدء"
+      },
+      {
+        "id": "B",
+        "textAr": "التخطيط",
+        "textEn": "التخطيط"
+      },
+      {
+        "id": "C",
+        "textAr": "التنفيذ",
+        "textEn": "التنفيذ"
+      },
+      {
+        "id": "D",
+        "textAr": "الإغلاق",
+        "textEn": "الإغلاق"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "أصحاب المصلحة"
+  },
+  {
+    "type": "single",
+    "textAr": "هيكل تجزئة العمل (WBS) يُقسِّم:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "نطاق المشروع إلى مكوّنات أصغر قابلة للإدارة",
+        "textEn": "نطاق المشروع إلى مكوّنات أصغر قابلة للإدارة"
+      },
+      {
+        "id": "B",
+        "textAr": "الميزانية إلى بنود صرف",
+        "textEn": "الميزانية إلى بنود صرف"
+      },
+      {
+        "id": "C",
+        "textAr": "الفريق إلى أقسام إدارية",
+        "textEn": "الفريق إلى أقسام إدارية"
+      },
+      {
+        "id": "D",
+        "textAr": "المخاطر إلى فئات",
+        "textEn": "المخاطر إلى فئات"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "النطاق"
+  },
+  {
+    "type": "single",
+    "textAr": "يُسمّى أدنى مستوى في هيكل تجزئة العمل:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "حزمة العمل",
+        "textEn": "حزمة العمل"
+      },
+      {
+        "id": "B",
+        "textAr": "المعلم",
+        "textEn": "المعلم"
+      },
+      {
+        "id": "C",
+        "textAr": "النشاط",
+        "textEn": "النشاط"
+      },
+      {
+        "id": "D",
+        "textAr": "المرحلة",
+        "textEn": "المرحلة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "النطاق"
+  },
+  {
+    "type": "single",
+    "textAr": "المسار الحرج في شبكة الأنشطة هو:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "أطول مسار ويحدد أقصر مدة ممكنة للمشروع",
+        "textEn": "أطول مسار ويحدد أقصر مدة ممكنة للمشروع"
+      },
+      {
+        "id": "B",
+        "textAr": "أقصر مسار في الشبكة",
+        "textEn": "أقصر مسار في الشبكة"
+      },
+      {
+        "id": "C",
+        "textAr": "المسار الأعلى تكلفة",
+        "textEn": "المسار الأعلى تكلفة"
+      },
+      {
+        "id": "D",
+        "textAr": "المسار الأكثر مخاطرة",
+        "textEn": "المسار الأكثر مخاطرة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "single",
+    "textAr": "الفائض الزمني (Float) للأنشطة الواقعة على المسار الحرج يساوي:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "صفرًا",
+        "textEn": "صفرًا"
+      },
+      {
+        "id": "B",
+        "textAr": "يومًا واحدًا",
+        "textEn": "يومًا واحدًا"
+      },
+      {
+        "id": "C",
+        "textAr": "قيمة سالبة دائمًا",
+        "textEn": "قيمة سالبة دائمًا"
+      },
+      {
+        "id": "D",
+        "textAr": "يعتمد على مدة النشاط",
+        "textEn": "يعتمد على مدة النشاط"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "single",
+    "textAr": "تقنية ضغط الجدول التي تضيف موارد مقابل تكلفة أعلى تُسمّى:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "التزاحم (Crashing)",
+        "textEn": "التزاحم (Crashing)"
+      },
+      {
+        "id": "B",
+        "textAr": "التتابع السريع (Fast Tracking)",
+        "textEn": "التتابع السريع (Fast Tracking)"
+      },
+      {
+        "id": "C",
+        "textAr": "تسوية الموارد",
+        "textEn": "تسوية الموارد"
+      },
+      {
+        "id": "D",
+        "textAr": "تنعيم الموارد",
+        "textEn": "تنعيم الموارد"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "single",
+    "textAr": "تنفيذ أنشطة كانت متسلسلة بالتوازي يُسمّى:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "التتابع السريع",
+        "textEn": "التتابع السريع"
+      },
+      {
+        "id": "B",
+        "textAr": "التزاحم",
+        "textEn": "التزاحم"
+      },
+      {
+        "id": "C",
+        "textAr": "سلسلة الأحداث الحرجة",
+        "textEn": "سلسلة الأحداث الحرجة"
+      },
+      {
+        "id": "D",
+        "textAr": "تسوية الموارد",
+        "textEn": "تسوية الموارد"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "single",
+    "textAr": "يُحسب مؤشر أداء التكلفة CPI بالعلاقة:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "CPI = EV ÷ AC",
+        "textEn": "CPI = EV ÷ AC"
+      },
+      {
+        "id": "B",
+        "textAr": "CPI = EV ÷ PV",
+        "textEn": "CPI = EV ÷ PV"
+      },
+      {
+        "id": "C",
+        "textAr": "CPI = AC ÷ EV",
+        "textEn": "CPI = AC ÷ EV"
+      },
+      {
+        "id": "D",
+        "textAr": "CPI = PV ÷ EV",
+        "textEn": "CPI = PV ÷ EV"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "single",
+    "textAr": "إذا كان CPI < 1 فهذا يعني أن المشروع:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "يتجاوز الميزانية",
+        "textEn": "يتجاوز الميزانية"
+      },
+      {
+        "id": "B",
+        "textAr": "أقل من الميزانية",
+        "textEn": "أقل من الميزانية"
+      },
+      {
+        "id": "C",
+        "textAr": "متأخر عن الجدول",
+        "textEn": "متأخر عن الجدول"
+      },
+      {
+        "id": "D",
+        "textAr": "متقدم عن الجدول",
+        "textEn": "متقدم عن الجدول"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "single",
+    "textAr": "قيمة SPI = 1.2 تعني أن المشروع:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "متقدم عن الجدول",
+        "textEn": "متقدم عن الجدول"
+      },
+      {
+        "id": "B",
+        "textAr": "متأخر عن الجدول",
+        "textEn": "متأخر عن الجدول"
+      },
+      {
+        "id": "C",
+        "textAr": "ضمن الميزانية تمامًا",
+        "textEn": "ضمن الميزانية تمامًا"
+      },
+      {
+        "id": "D",
+        "textAr": "يتجاوز الميزانية",
+        "textEn": "يتجاوز الميزانية"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "single",
+    "textAr": "يُخصَّص احتياطي الطوارئ لمواجهة:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "المخاطر المعروفة‑المجهولة",
+        "textEn": "المخاطر المعروفة‑المجهولة"
+      },
+      {
+        "id": "B",
+        "textAr": "المخاطر المجهولة‑المجهولة",
+        "textEn": "المخاطر المجهولة‑المجهولة"
+      },
+      {
+        "id": "C",
+        "textAr": "تغييرات النطاق المعتمدة",
+        "textEn": "تغييرات النطاق المعتمدة"
+      },
+      {
+        "id": "D",
+        "textAr": "أرباح المورّد",
+        "textEn": "أرباح المورّد"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "single",
+    "textAr": "يُخصَّص الاحتياطي الإداري لمواجهة:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "المخاطر المجهولة‑المجهولة",
+        "textEn": "المخاطر المجهولة‑المجهولة"
+      },
+      {
+        "id": "B",
+        "textAr": "المخاطر المعروفة",
+        "textEn": "المخاطر المعروفة"
+      },
+      {
+        "id": "C",
+        "textAr": "تأخيرات المورّد",
+        "textEn": "تأخيرات المورّد"
+      },
+      {
+        "id": "D",
+        "textAr": "تكاليف الجودة",
+        "textEn": "تكاليف الجودة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "single",
+    "textAr": "أي مخطط يُستخدم لتحديد الأسباب الجذرية لمشكلة؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "مخطط إيشيكاوا (عظم السمكة)",
+        "textEn": "مخطط إيشيكاوا (عظم السمكة)"
+      },
+      {
+        "id": "B",
+        "textAr": "مخطط باريتو",
+        "textEn": "مخطط باريتو"
+      },
+      {
+        "id": "C",
+        "textAr": "خريطة التحكم",
+        "textEn": "خريطة التحكم"
+      },
+      {
+        "id": "D",
+        "textAr": "المدرج التكراري",
+        "textEn": "المدرج التكراري"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الجودة"
+  },
+  {
+    "type": "single",
+    "textAr": "ينص مبدأ باريتو على أن:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "80% من المشكلات تنشأ من 20% من الأسباب",
+        "textEn": "80% من المشكلات تنشأ من 20% من الأسباب"
+      },
+      {
+        "id": "B",
+        "textAr": "كل مشكلة لها سبب واحد",
+        "textEn": "كل مشكلة لها سبب واحد"
+      },
+      {
+        "id": "C",
+        "textAr": "الجودة تُفحص في النهاية فقط",
+        "textEn": "الجودة تُفحص في النهاية فقط"
+      },
+      {
+        "id": "D",
+        "textAr": "التكلفة تتناسب مع الجودة",
+        "textEn": "التكلفة تتناسب مع الجودة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "الجودة"
+  },
+  {
+    "type": "single",
+    "textAr": "تشمل تكلفة الجودة تكلفة الوقاية وتكلفة:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "التقييم وتكلفة الفشل",
+        "textEn": "التقييم وتكلفة الفشل"
+      },
+      {
+        "id": "B",
+        "textAr": "التسويق",
+        "textEn": "التسويق"
+      },
+      {
+        "id": "C",
+        "textAr": "المشتريات",
+        "textEn": "المشتريات"
+      },
+      {
+        "id": "D",
+        "textAr": "الاحتياطي الإداري",
+        "textEn": "الاحتياطي الإداري"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الجودة"
+  },
+  {
+    "type": "single",
+    "textAr": "أي أسلوب لحل النزاعات يُعدّ الأفضل للوصول إلى حلول دائمة؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "التعاون / حل المشكلات",
+        "textEn": "التعاون / حل المشكلات"
+      },
+      {
+        "id": "B",
+        "textAr": "التجنب",
+        "textEn": "التجنب"
+      },
+      {
+        "id": "C",
+        "textAr": "التنازل",
+        "textEn": "التنازل"
+      },
+      {
+        "id": "D",
+        "textAr": "الإجبار",
+        "textEn": "الإجبار"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الموارد والفريق"
+  },
+  {
+    "type": "single",
+    "textAr": "في نموذج تاكمان، مرحلة النزاعات وتصادم الآراء تُسمّى:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "الاضطراب (Storming)",
+        "textEn": "الاضطراب (Storming)"
+      },
+      {
+        "id": "B",
+        "textAr": "التشكيل (Forming)",
+        "textEn": "التشكيل (Forming)"
+      },
+      {
+        "id": "C",
+        "textAr": "الاستقرار (Norming)",
+        "textEn": "الاستقرار (Norming)"
+      },
+      {
+        "id": "D",
+        "textAr": "الأداء (Performing)",
+        "textEn": "الأداء (Performing)"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الموارد والفريق"
+  },
+  {
+    "type": "single",
+    "textAr": "عدد قنوات الاتصال في فريق من n عضوًا يُحسب بالعلاقة:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "n(n−1)/2",
+        "textEn": "n(n−1)/2"
+      },
+      {
+        "id": "B",
+        "textAr": "n^{2}",
+        "textEn": "n^{2}"
+      },
+      {
+        "id": "C",
+        "textAr": "n(n+1)/2",
+        "textEn": "n(n+1)/2"
+      },
+      {
+        "id": "D",
+        "textAr": "2n",
+        "textEn": "2n"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الاتصالات"
+  },
+  {
+    "type": "single",
+    "textAr": "أنسب نوع اتصال لتوثيق طلب تغيير هو:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "رسمي كتابي",
+        "textEn": "رسمي كتابي"
+      },
+      {
+        "id": "B",
+        "textAr": "غير رسمي شفهي",
+        "textEn": "غير رسمي شفهي"
+      },
+      {
+        "id": "C",
+        "textAr": "رسمي شفهي",
+        "textEn": "رسمي شفهي"
+      },
+      {
+        "id": "D",
+        "textAr": "غير رسمي كتابي",
+        "textEn": "غير رسمي كتابي"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "الاتصالات"
+  },
+  {
+    "type": "single",
+    "textAr": "نقل أثر خطر سلبي إلى طرف ثالث (كالتأمين) يُسمّى:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "النقل",
+        "textEn": "النقل"
+      },
+      {
+        "id": "B",
+        "textAr": "التجنب",
+        "textEn": "التجنب"
+      },
+      {
+        "id": "C",
+        "textAr": "التخفيف",
+        "textEn": "التخفيف"
+      },
+      {
+        "id": "D",
+        "textAr": "القبول",
+        "textEn": "القبول"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "single",
+    "textAr": "زيادة احتمالية حدوث فرصة إيجابية تُسمّى:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "التعزيز",
+        "textEn": "التعزيز"
+      },
+      {
+        "id": "B",
+        "textAr": "الاستغلال",
+        "textEn": "الاستغلال"
+      },
+      {
+        "id": "C",
+        "textAr": "المشاركة",
+        "textEn": "المشاركة"
+      },
+      {
+        "id": "D",
+        "textAr": "القبول",
+        "textEn": "القبول"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "single",
+    "textAr": "القيمة النقدية المتوقعة (EMV) للخطر تساوي:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "الاحتمالية × الأثر",
+        "textEn": "الاحتمالية × الأثر"
+      },
+      {
+        "id": "B",
+        "textAr": "الاحتمالية + الأثر",
+        "textEn": "الاحتمالية + الأثر"
+      },
+      {
+        "id": "C",
+        "textAr": "الأثر ÷ الاحتمالية",
+        "textEn": "الأثر ÷ الاحتمالية"
+      },
+      {
+        "id": "D",
+        "textAr": "الأثر − الاحتمالية",
+        "textEn": "الأثر − الاحتمالية"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "single",
+    "textAr": "أي نوع عقود يُحمِّل المشتري أعلى مخاطر تكلفة؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "التكلفة زائد نسبة من التكلفة",
+        "textEn": "التكلفة زائد نسبة من التكلفة"
+      },
+      {
+        "id": "B",
+        "textAr": "السعر الثابت",
+        "textEn": "السعر الثابت"
+      },
+      {
+        "id": "C",
+        "textAr": "الوقت والمواد",
+        "textEn": "الوقت والمواد"
+      },
+      {
+        "id": "D",
+        "textAr": "السعر الثابت مع حافز",
+        "textEn": "السعر الثابت مع حافز"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المشتريات"
+  },
+  {
+    "type": "single",
+    "textAr": "المستند الذي يُصدره المشتري لطلب عروض تفصيلية من الموردين:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "طلب العرض (RFP)",
+        "textEn": "طلب العرض (RFP)"
+      },
+      {
+        "id": "B",
+        "textAr": "بيان العمل",
+        "textEn": "بيان العمل"
+      },
+      {
+        "id": "C",
+        "textAr": "أمر الشراء",
+        "textEn": "أمر الشراء"
+      },
+      {
+        "id": "D",
+        "textAr": "اتفاقية مستوى الخدمة",
+        "textEn": "اتفاقية مستوى الخدمة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المشتريات"
+  },
+  {
+    "type": "single",
+    "textAr": "تُستخدم شبكة القوة/الاهتمام في:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "تصنيف أصحاب المصلحة",
+        "textEn": "تصنيف أصحاب المصلحة"
+      },
+      {
+        "id": "B",
+        "textAr": "تقدير التكاليف",
+        "textEn": "تقدير التكاليف"
+      },
+      {
+        "id": "C",
+        "textAr": "جدولة الأنشطة",
+        "textEn": "جدولة الأنشطة"
+      },
+      {
+        "id": "D",
+        "textAr": "تحليل الجودة",
+        "textEn": "تحليل الجودة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "أصحاب المصلحة"
+  },
+  {
+    "type": "single",
+    "textAr": "أصحاب المصلحة ذوو القوة العالية والاهتمام المنخفض يجب:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "إبقاؤهم راضين",
+        "textEn": "إبقاؤهم راضين"
+      },
+      {
+        "id": "B",
+        "textAr": "إدارتهم عن كثب",
+        "textEn": "إدارتهم عن كثب"
+      },
+      {
+        "id": "C",
+        "textAr": "إبقاؤهم على اطلاع",
+        "textEn": "إبقاؤهم على اطلاع"
+      },
+      {
+        "id": "D",
+        "textAr": "مراقبتهم فقط",
+        "textEn": "مراقبتهم فقط"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "أصحاب المصلحة"
+  },
+  {
+    "type": "single",
+    "textAr": "تُراجع طلبات التغيير ويُبتّ فيها من قِبل:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "مجلس مراقبة التغيير",
+        "textEn": "مجلس مراقبة التغيير"
+      },
+      {
+        "id": "B",
+        "textAr": "الراعي فقط",
+        "textEn": "الراعي فقط"
+      },
+      {
+        "id": "C",
+        "textAr": "فريق الجودة",
+        "textEn": "فريق الجودة"
+      },
+      {
+        "id": "D",
+        "textAr": "المورّد",
+        "textEn": "المورّد"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكامل"
+  },
+  {
+    "type": "single",
+    "textAr": "زحف النطاق (Scope Creep) هو:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "إضافات غير مصرّح بها إلى النطاق",
+        "textEn": "إضافات غير مصرّح بها إلى النطاق"
+      },
+      {
+        "id": "B",
+        "textAr": "تقليص النطاق رسميًا",
+        "textEn": "تقليص النطاق رسميًا"
+      },
+      {
+        "id": "C",
+        "textAr": "تأخر التسليمات",
+        "textEn": "تأخر التسليمات"
+      },
+      {
+        "id": "D",
+        "textAr": "زيادة الميزانية المعتمدة",
+        "textEn": "زيادة الميزانية المعتمدة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "النطاق"
+  },
+  {
+    "type": "single",
+    "textAr": "تُوثَّق الدروس المستفادة:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "طوال دورة حياة المشروع",
+        "textEn": "طوال دورة حياة المشروع"
+      },
+      {
+        "id": "B",
+        "textAr": "في مرحلة الإغلاق فقط",
+        "textEn": "في مرحلة الإغلاق فقط"
+      },
+      {
+        "id": "C",
+        "textAr": "في مرحلة البدء فقط",
+        "textEn": "في مرحلة البدء فقط"
+      },
+      {
+        "id": "D",
+        "textAr": "عند فشل المشروع فقط",
+        "textEn": "عند فشل المشروع فقط"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكامل"
+  },
+  {
+    "type": "single",
+    "textAr": "المعلم (Milestone) في الجدول الزمني هو:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "حدث مهم ذو مدة صفر",
+        "textEn": "حدث مهم ذو مدة صفر"
+      },
+      {
+        "id": "B",
+        "textAr": "نشاط طويل المدة",
+        "textEn": "نشاط طويل المدة"
+      },
+      {
+        "id": "C",
+        "textAr": "مورد رئيسي",
+        "textEn": "مورد رئيسي"
+      },
+      {
+        "id": "D",
+        "textAr": "تكلفة ثابتة",
+        "textEn": "تكلفة ثابتة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "single",
+    "textAr": "تقنية التقدير التي تعتمد على مشاريع سابقة مشابهة تُسمّى:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "التقدير التناظري",
+        "textEn": "التقدير التناظري"
+      },
+      {
+        "id": "B",
+        "textAr": "التقدير البارامتري",
+        "textEn": "التقدير البارامتري"
+      },
+      {
+        "id": "C",
+        "textAr": "التقدير ثلاثي النقاط",
+        "textEn": "التقدير ثلاثي النقاط"
+      },
+      {
+        "id": "D",
+        "textAr": "التقدير من الأسفل إلى الأعلى",
+        "textEn": "التقدير من الأسفل إلى الأعلى"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "single",
+    "textAr": "أكثر تقنيات التقدير دقة (وأعلاها تكلفة وجهدًا):",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "من الأسفل إلى الأعلى",
+        "textEn": "من الأسفل إلى الأعلى"
+      },
+      {
+        "id": "B",
+        "textAr": "التناظري",
+        "textEn": "التناظري"
+      },
+      {
+        "id": "C",
+        "textAr": "حكم الخبراء",
+        "textEn": "حكم الخبراء"
+      },
+      {
+        "id": "D",
+        "textAr": "البارامتري",
+        "textEn": "البارامتري"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "single",
+    "textAr": "بتقدير PERT: إذا كان O = 4 و M = 6 و P = 14 فإن المدة المتوقعة (O + 4M + P) ÷ 6 تساوي:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "7",
+        "textEn": "7"
+      },
+      {
+        "id": "B",
+        "textAr": "8",
+        "textEn": "8"
+      },
+      {
+        "id": "C",
+        "textAr": "6",
+        "textEn": "6"
+      },
+      {
+        "id": "D",
+        "textAr": "9",
+        "textEn": "9"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 2,
+    "difficulty": "hard",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "single",
+    "textAr": "يعرض مخطط جانت:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "الأنشطة على محور زمني",
+        "textEn": "الأنشطة على محور زمني"
+      },
+      {
+        "id": "B",
+        "textAr": "التكاليف حسب الحساب",
+        "textEn": "التكاليف حسب الحساب"
+      },
+      {
+        "id": "C",
+        "textAr": "الأسباب والنتائج",
+        "textEn": "الأسباب والنتائج"
+      },
+      {
+        "id": "D",
+        "textAr": "تكرار العيوب",
+        "textEn": "تكرار العيوب"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "single",
+    "textAr": "في دورة الحياة التنبؤية (Waterfall):",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "يُحدَّد النطاق مبكرًا بالتفصيل",
+        "textEn": "يُحدَّد النطاق مبكرًا بالتفصيل"
+      },
+      {
+        "id": "B",
+        "textAr": "يتغير النطاق كل أسبوعين",
+        "textEn": "يتغير النطاق كل أسبوعين"
+      },
+      {
+        "id": "C",
+        "textAr": "لا توجد خطة",
+        "textEn": "لا توجد خطة"
+      },
+      {
+        "id": "D",
+        "textAr": "يُسلَّم المنتج في زيادات",
+        "textEn": "يُسلَّم المنتج في زيادات"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "single",
+    "textAr": "في Scrum، من يملك قائمة المنتج ويرتب أولوياتها؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "مالك المنتج",
+        "textEn": "مالك المنتج"
+      },
+      {
+        "id": "B",
+        "textAr": "سكرم ماستر",
+        "textEn": "سكرم ماستر"
+      },
+      {
+        "id": "C",
+        "textAr": "فريق التطوير",
+        "textEn": "فريق التطوير"
+      },
+      {
+        "id": "D",
+        "textAr": "الراعي",
+        "textEn": "الراعي"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "single",
+    "textAr": "المدة النموذجية للسبرنت:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "1–4 أسابيع",
+        "textEn": "1–4 أسابيع"
+      },
+      {
+        "id": "B",
+        "textAr": "يوم واحد",
+        "textEn": "يوم واحد"
+      },
+      {
+        "id": "C",
+        "textAr": "6 أشهر",
+        "textEn": "6 أشهر"
+      },
+      {
+        "id": "D",
+        "textAr": "سنة",
+        "textEn": "سنة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "single",
+    "textAr": "المدة القصوى للاجتماع اليومي (Daily Scrum):",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "15 دقيقة",
+        "textEn": "15 دقيقة"
+      },
+      {
+        "id": "B",
+        "textAr": "ساعة",
+        "textEn": "ساعة"
+      },
+      {
+        "id": "C",
+        "textAr": "نصف يوم",
+        "textEn": "نصف يوم"
+      },
+      {
+        "id": "D",
+        "textAr": "غير محددة",
+        "textEn": "غير محددة"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "single",
+    "textAr": "يعرض مخطط الحرق النازل (Burndown):",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "العمل المتبقي عبر الزمن",
+        "textEn": "العمل المتبقي عبر الزمن"
+      },
+      {
+        "id": "B",
+        "textAr": "العمل المنجز المتراكم",
+        "textEn": "العمل المنجز المتراكم"
+      },
+      {
+        "id": "C",
+        "textAr": "التكلفة الفعلية",
+        "textEn": "التكلفة الفعلية"
+      },
+      {
+        "id": "D",
+        "textAr": "عدد الأعضاء",
+        "textEn": "عدد الأعضاء"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "single",
+    "textAr": "يُنشأ سجل المخاطر أول مرة في عملية:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "تحديد المخاطر",
+        "textEn": "تحديد المخاطر"
+      },
+      {
+        "id": "B",
+        "textAr": "التحليل الكمي",
+        "textEn": "التحليل الكمي"
+      },
+      {
+        "id": "C",
+        "textAr": "تخطيط الاستجابات",
+        "textEn": "تخطيط الاستجابات"
+      },
+      {
+        "id": "D",
+        "textAr": "مراقبة المخاطر",
+        "textEn": "مراقبة المخاطر"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "single",
+    "textAr": "يقيّم التحليل النوعي للمخاطر:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "الاحتمالية والأثر",
+        "textEn": "الاحتمالية والأثر"
+      },
+      {
+        "id": "B",
+        "textAr": "القيمة النقدية المتوقعة",
+        "textEn": "القيمة النقدية المتوقعة"
+      },
+      {
+        "id": "C",
+        "textAr": "نتائج محاكاة مونت كارلو",
+        "textEn": "نتائج محاكاة مونت كارلو"
+      },
+      {
+        "id": "D",
+        "textAr": "التوزيع الاحتمالي",
+        "textEn": "التوزيع الاحتمالي"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "single",
+    "textAr": "يُمثَّل تحليل الحساسية عادةً بـ:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "مخطط الإعصار (Tornado)",
+        "textEn": "مخطط الإعصار (Tornado)"
+      },
+      {
+        "id": "B",
+        "textAr": "مخطط جانت",
+        "textEn": "مخطط جانت"
+      },
+      {
+        "id": "C",
+        "textAr": "مخطط باريتو",
+        "textEn": "مخطط باريتو"
+      },
+      {
+        "id": "D",
+        "textAr": "خريطة التحكم",
+        "textEn": "خريطة التحكم"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "single",
+    "textAr": "لا يُغيَّر خط الأساس للجدول الزمني إلا عبر:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "مراقبة التغيير المتكاملة",
+        "textEn": "مراقبة التغيير المتكاملة"
+      },
+      {
+        "id": "B",
+        "textAr": "قرار مدير المشروع منفردًا",
+        "textEn": "قرار مدير المشروع منفردًا"
+      },
+      {
+        "id": "C",
+        "textAr": "طلب المورّد",
+        "textEn": "طلب المورّد"
+      },
+      {
+        "id": "D",
+        "textAr": "اجتماع الفريق اليومي",
+        "textEn": "اجتماع الفريق اليومي"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكامل"
+  },
+  {
+    "type": "single",
+    "textAr": "تكلفة الفرصة البديلة تعني:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "قيمة أفضل بديل تم التخلي عنه",
+        "textEn": "قيمة أفضل بديل تم التخلي عنه"
+      },
+      {
+        "id": "B",
+        "textAr": "تكلفة الفشل الخارجي",
+        "textEn": "تكلفة الفشل الخارجي"
+      },
+      {
+        "id": "C",
+        "textAr": "التكلفة الغارقة",
+        "textEn": "التكلفة الغارقة"
+      },
+      {
+        "id": "D",
+        "textAr": "الاحتياطي الإداري",
+        "textEn": "الاحتياطي الإداري"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "multiple",
+    "textAr": "اختر عناصر القيد الثلاثي التقليدي للمشروع:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "النطاق",
+        "textEn": "النطاق"
+      },
+      {
+        "id": "B",
+        "textAr": "الوقت",
+        "textEn": "الوقت"
+      },
+      {
+        "id": "C",
+        "textAr": "التكلفة",
+        "textEn": "التكلفة"
+      },
+      {
+        "id": "D",
+        "textAr": "رضا الموظفين",
+        "textEn": "رضا الموظفين"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "التكامل"
+  },
+  {
+    "type": "multiple",
+    "textAr": "أي مما يلي من مكوّنات خطة إدارة المشروع؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "خطة إدارة النطاق",
+        "textEn": "خطة إدارة النطاق"
+      },
+      {
+        "id": "B",
+        "textAr": "خطة إدارة الجدول",
+        "textEn": "خطة إدارة الجدول"
+      },
+      {
+        "id": "C",
+        "textAr": "ميثاق المشروع",
+        "textEn": "ميثاق المشروع"
+      },
+      {
+        "id": "D",
+        "textAr": "خطة إدارة المخاطر",
+        "textEn": "خطة إدارة المخاطر"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "التكامل"
+  },
+  {
+    "type": "multiple",
+    "textAr": "اختر استراتيجيات الاستجابة للمخاطر السلبية:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "التجنب",
+        "textEn": "التجنب"
+      },
+      {
+        "id": "B",
+        "textAr": "التخفيف",
+        "textEn": "التخفيف"
+      },
+      {
+        "id": "C",
+        "textAr": "التعزيز",
+        "textEn": "التعزيز"
+      },
+      {
+        "id": "D",
+        "textAr": "النقل",
+        "textEn": "النقل"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "multiple",
+    "textAr": "أي مما يلي من أدوات الجودة الأساسية السبع؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "مخطط باريتو",
+        "textEn": "مخطط باريتو"
+      },
+      {
+        "id": "B",
+        "textAr": "مخطط عظم السمكة",
+        "textEn": "مخطط عظم السمكة"
+      },
+      {
+        "id": "C",
+        "textAr": "مخطط جانت",
+        "textEn": "مخطط جانت"
+      },
+      {
+        "id": "D",
+        "textAr": "خريطة التحكم",
+        "textEn": "خريطة التحكم"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "الجودة"
+  },
+  {
+    "type": "multiple",
+    "textAr": "اختر ما يتم في مجموعة عمليات الإغلاق:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "قبول المنتج النهائي",
+        "textEn": "قبول المنتج النهائي"
+      },
+      {
+        "id": "B",
+        "textAr": "توثيق الدروس المستفادة",
+        "textEn": "توثيق الدروس المستفادة"
+      },
+      {
+        "id": "C",
+        "textAr": "إصدار ميثاق المشروع",
+        "textEn": "إصدار ميثاق المشروع"
+      },
+      {
+        "id": "D",
+        "textAr": "إغلاق العقود",
+        "textEn": "إغلاق العقود"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "التكامل"
+  },
+  {
+    "type": "multiple",
+    "textAr": "اختر أنواع التبعيات بين الأنشطة:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "إلزامية",
+        "textEn": "إلزامية"
+      },
+      {
+        "id": "B",
+        "textAr": "تقديرية",
+        "textEn": "تقديرية"
+      },
+      {
+        "id": "C",
+        "textAr": "خارجية",
+        "textEn": "خارجية"
+      },
+      {
+        "id": "D",
+        "textAr": "عشوائية",
+        "textEn": "عشوائية"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "multiple",
+    "textAr": "أي مما يلي من مقاييس القيمة المكتسبة؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "CPI",
+        "textEn": "CPI"
+      },
+      {
+        "id": "B",
+        "textAr": "SPI",
+        "textEn": "SPI"
+      },
+      {
+        "id": "C",
+        "textAr": "ROI",
+        "textEn": "ROI"
+      },
+      {
+        "id": "D",
+        "textAr": "EAC",
+        "textEn": "EAC"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "multiple",
+    "textAr": "اختر أدوار إطار Scrum الرسمية:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "مالك المنتج",
+        "textEn": "مالك المنتج"
+      },
+      {
+        "id": "B",
+        "textAr": "سكرم ماستر",
+        "textEn": "سكرم ماستر"
+      },
+      {
+        "id": "C",
+        "textAr": "فريق التطوير",
+        "textEn": "فريق التطوير"
+      },
+      {
+        "id": "D",
+        "textAr": "مدير المشروع",
+        "textEn": "مدير المشروع"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "multiple",
+    "textAr": "اختر مصادر قوة مدير المشروع:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "قوة الخبرة",
+        "textEn": "قوة الخبرة"
+      },
+      {
+        "id": "B",
+        "textAr": "القوة الشرعية (الرسمية)",
+        "textEn": "القوة الشرعية (الرسمية)"
+      },
+      {
+        "id": "C",
+        "textAr": "قوة الصداقة الشخصية",
+        "textEn": "قوة الصداقة الشخصية"
+      },
+      {
+        "id": "D",
+        "textAr": "قوة المكافأة",
+        "textEn": "قوة المكافأة"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "الموارد والفريق"
+  },
+  {
+    "type": "multiple",
+    "textAr": "أي مما يلي يُدرج في سجل أصحاب المصلحة؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "الاسم والمنصب",
+        "textEn": "الاسم والمنصب"
+      },
+      {
+        "id": "B",
+        "textAr": "الدور في المشروع",
+        "textEn": "الدور في المشروع"
+      },
+      {
+        "id": "C",
+        "textAr": "التوقعات والتأثير",
+        "textEn": "التوقعات والتأثير"
+      },
+      {
+        "id": "D",
+        "textAr": "الراتب الشهري",
+        "textEn": "الراتب الشهري"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "أصحاب المصلحة"
+  },
+  {
+    "type": "multiple",
+    "textAr": "اختر أساليب جمع المتطلبات:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "المقابلات",
+        "textEn": "المقابلات"
+      },
+      {
+        "id": "B",
+        "textAr": "ورش العمل",
+        "textEn": "ورش العمل"
+      },
+      {
+        "id": "C",
+        "textAr": "الاستبيانات",
+        "textEn": "الاستبيانات"
+      },
+      {
+        "id": "D",
+        "textAr": "محاكاة مونت كارلو",
+        "textEn": "محاكاة مونت كارلو"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "النطاق"
+  },
+  {
+    "type": "multiple",
+    "textAr": "أي مما يلي من عوامل البيئة المؤسسية؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "ثقافة المنظمة",
+        "textEn": "ثقافة المنظمة"
+      },
+      {
+        "id": "B",
+        "textAr": "البنية التحتية",
+        "textEn": "البنية التحتية"
+      },
+      {
+        "id": "C",
+        "textAr": "التشريعات الحكومية",
+        "textEn": "التشريعات الحكومية"
+      },
+      {
+        "id": "D",
+        "textAr": "سجل الدروس المستفادة",
+        "textEn": "سجل الدروس المستفادة"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "التكامل"
+  },
+  {
+    "type": "multiple",
+    "textAr": "اختر أنواع العقود المعروفة:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "السعر الثابت",
+        "textEn": "السعر الثابت"
+      },
+      {
+        "id": "B",
+        "textAr": "التكلفة المسدَّدة",
+        "textEn": "التكلفة المسدَّدة"
+      },
+      {
+        "id": "C",
+        "textAr": "الوقت والمواد",
+        "textEn": "الوقت والمواد"
+      },
+      {
+        "id": "D",
+        "textAr": "الأجل المفتوح",
+        "textEn": "الأجل المفتوح"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "المشتريات"
+  },
+  {
+    "type": "multiple",
+    "textAr": "أي مما يلي من مكوّنات بيان نطاق المشروع؟",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "وصف نطاق المنتج",
+        "textEn": "وصف نطاق المنتج"
+      },
+      {
+        "id": "B",
+        "textAr": "التسليمات",
+        "textEn": "التسليمات"
+      },
+      {
+        "id": "C",
+        "textAr": "معايير القبول",
+        "textEn": "معايير القبول"
+      },
+      {
+        "id": "D",
+        "textAr": "تقييمات أداء الفريق",
+        "textEn": "تقييمات أداء الفريق"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "النطاق"
+  },
+  {
+    "type": "multiple",
+    "textAr": "اختر تقنيات تقدير مدد الأنشطة:",
+    "options": [
+      {
+        "id": "A",
+        "textAr": "التقدير التناظري",
+        "textEn": "التقدير التناظري"
+      },
+      {
+        "id": "B",
+        "textAr": "التقدير البارامتري",
+        "textEn": "التقدير البارامتري"
+      },
+      {
+        "id": "C",
+        "textAr": "التقدير ثلاثي النقاط",
+        "textEn": "التقدير ثلاثي النقاط"
+      },
+      {
+        "id": "D",
+        "textAr": "تحليل باريتو",
+        "textEn": "تحليل باريتو"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "points": 2,
+    "difficulty": "medium",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "الفائض الزمني لأنشطة المسار الحرج يساوي صفرًا.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "الاحتياطي الإداري جزء من خط أساس التكلفة.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "F",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "يُصدر ميثاق المشروع عادةً من الراعي أو الجهة المبادِرة.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "التكامل"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "يتضمن هيكل تجزئة العمل الأنشطة الزمنية ومددها.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "F",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "النطاق"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "قيمة CPI أكبر من 1 تعني أن المشروع يتجاوز الميزانية.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "F",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "التتابع السريع يزيد من مخاطر إعادة العمل.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "سجل المخاطر مستند حي يُحدَّث طوال المشروع.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "يُقبل زحف النطاق إذا لم يؤثر على الجدول الزمني.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "F",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "النطاق"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "مالك المنتج في Scrum هو من يوزّع المهام اليومية على أعضاء الفريق.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "F",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "عدد قنوات الاتصال في فريق من 10 أشخاص يساوي 45.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "الاتصالات"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "التقدير التناظري أقل دقة من التقدير من الأسفل إلى الأعلى.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "عقد السعر الثابت يُحمِّل البائع مخاطر زيادة التكلفة.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "المشتريات"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "تُوثَّق الدروس المستفادة في مرحلة الإغلاق فقط.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "F",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "التكامل"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "للمعلم (Milestone) مدة زمنية محددة في الجدول.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "F",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "القيمة المكتسبة EV = نسبة الإنجاز × الميزانية عند الاكتمال (BAC).",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "يُجرى التحليل الكمي للمخاطر قبل التحليل النوعي.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "F",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "لا تُغيَّر خطوط الأساس إلا عبر عملية مراقبة التغيير المتكاملة.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "التكامل"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "الاستبيانات مناسبة لجمع المتطلبات من جمهور واسع ومتفرق جغرافيًا.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "النطاق"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "يعرض مخطط الحرق النازل العمل المنجز المتراكم عبر الزمن.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "F",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "truefalse",
+    "textAr": "قد تؤدي تسوية الموارد إلى إطالة المسار الحرج.",
+    "options": [
+      {
+        "id": "T",
+        "textAr": "صح",
+        "textEn": "True"
+      },
+      {
+        "id": "F",
+        "textAr": "خطأ",
+        "textEn": "False"
+      }
+    ],
+    "correctAnswer": "T",
+    "points": 1,
+    "difficulty": "easy",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "short",
+    "textAr": "ما الاختصار الإنجليزي لهيكل تجزئة العمل؟",
+    "correctAnswer": "WBS",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "النطاق"
+  },
+  {
+    "type": "short",
+    "textAr": "ما اسم المستند الذي يخوِّل بدء المشروع رسميًا؟",
+    "correctAnswer": "ميثاق المشروع",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكامل"
+  },
+  {
+    "type": "short",
+    "textAr": "ما اسم أطول مسار في شبكة الأنشطة؟",
+    "correctAnswer": "المسار الحرج",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "short",
+    "textAr": "ما اسم الدور الذي يزيل العوائق أمام فريق Scrum؟",
+    "correctAnswer": "سكرم ماستر",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "short",
+    "textAr": "ما اسم مخطط الأسباب والنتائج المعروف بعظم السمكة؟",
+    "correctAnswer": "إيشيكاوا",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الجودة"
+  },
+  {
+    "type": "short",
+    "textAr": "ما اسم تقنية تنفيذ الأنشطة المتسلسلة بالتوازي لضغط الجدول؟",
+    "correctAnswer": "التتابع السريع",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "short",
+    "textAr": "ما اختصار مؤشر أداء التكلفة؟",
+    "correctAnswer": "CPI",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "short",
+    "textAr": "ما اسم المرحلة الثانية في نموذج تاكمان لتطور الفريق؟",
+    "correctAnswer": "الاضطراب",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "الموارد والفريق"
+  },
+  {
+    "type": "short",
+    "textAr": "ما اسم الاجتماع الذي يراجع فيه فريق Scrum طريقة عمله بعد كل سبرنت؟",
+    "correctAnswer": "الاستعادة",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "short",
+    "textAr": "ما المصطلح الدال على إضافة عمل غير مصرَّح به إلى نطاق المشروع؟",
+    "correctAnswer": "زحف النطاق",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "النطاق"
+  },
+  {
+    "type": "short",
+    "textAr": "ما اسم اللجنة التي تراجع طلبات التغيير وتعتمدها؟",
+    "correctAnswer": "مجلس مراقبة التغيير",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكامل"
+  },
+  {
+    "type": "short",
+    "textAr": "ما اختصار القيمة المكتسبة؟",
+    "correctAnswer": "EV",
+    "points": 1,
+    "difficulty": "medium",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "numeric",
+    "textAr": "مشروع ميزانيته عند الاكتمال BAC = 200000 ريال ونسبة الإنجاز 40%. احسب القيمة المكتسبة EV = 40% × BAC.",
+    "correctAnswer": 80000,
+    "points": 2,
+    "difficulty": "hard",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "numeric",
+    "textAr": "إذا كانت EV = 80000 و AC = 100000، احسب CPI = EV ÷ AC.",
+    "correctAnswer": 0.8,
+    "points": 2,
+    "difficulty": "hard",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "numeric",
+    "textAr": "إذا كانت EV = 80000 و PV = 64000، احسب SPI = EV ÷ PV.",
+    "correctAnswer": 1.25,
+    "points": 2,
+    "difficulty": "hard",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "numeric",
+    "textAr": "فريق من 8 أعضاء. احسب عدد قنوات الاتصال n(n−1)/2.",
+    "correctAnswer": 28,
+    "points": 2,
+    "difficulty": "hard",
+    "competency": "الاتصالات"
+  },
+  {
+    "type": "numeric",
+    "textAr": "بتقدير PERT: O = 5، M = 8، P = 17. احسب المدة المتوقعة frac(O + 4M + P, 6).",
+    "correctAnswer": 9,
+    "points": 2,
+    "difficulty": "hard",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "numeric",
+    "textAr": "خطر احتماليته 30% وأثره خسارة 50000 ريال. احسب القيمة النقدية المتوقعة EMV = 0.3 × (−50000).",
+    "correctAnswer": -15000,
+    "points": 2,
+    "difficulty": "hard",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "numeric",
+    "textAr": "BAC = 500000 و CPI = 0.8. احسب التقدير عند الاكتمال EAC = BAC ÷ CPI.",
+    "correctAnswer": 625000,
+    "points": 2,
+    "difficulty": "hard",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "numeric",
+    "textAr": "احسب انحراف الجدول SV = EV − PV حيث EV = 120000 و PV = 150000.",
+    "correctAnswer": -30000,
+    "points": 2,
+    "difficulty": "hard",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "essay",
+    "textAr": "اشرح الفرق بين ميثاق المشروع وخطة إدارة المشروع من حيث الغرض والجهة المُصدِرة والمحتوى.",
+    "modelAnswer": "الميثاق: يصدره الراعي، يخوّل المشروع ويعيّن المدير ويحدد الأهداف العليا والقيود. الخطة: يعدّها مدير المشروع والفريق، تفصّل كيف يُنفَّذ ويُراقَب ويُغلق المشروع وتضم الخطط الفرعية وخطوط الأساس.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "التكامل"
+  },
+  {
+    "type": "essay",
+    "textAr": "ناقش أهمية هيكل تجزئة العمل وكيف يدعم التقدير والرقابة على المشروع.",
+    "modelAnswer": "يحوّل النطاق إلى تسليمات قابلة للإدارة، يمنع نسيان عمل أو إضافة عمل زائد، يشكّل أساس تقدير الوقت والتكلفة وتعيين المسؤوليات، ويتيح قياس الأداء على مستوى حزم العمل.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "النطاق"
+  },
+  {
+    "type": "essay",
+    "textAr": "قارن بين التزاحم (Crashing) والتتابع السريع (Fast Tracking) مع ذكر مزايا ومخاطر كل منهما.",
+    "modelAnswer": "التزاحم: إضافة موارد لتقليل المدة؛ يزيد التكلفة ويُطبَّق على المسار الحرج بأقل تكلفة لكل وحدة زمن. التتابع السريع: التوازي بين أنشطة متسلسلة؛ لا يزيد التكلفة مباشرة لكنه يرفع مخاطر إعادة العمل.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "essay",
+    "textAr": "اشرح كيف تُستخدم مؤشرات القيمة المكتسبة CPI و SPI في اتخاذ قرار تصحيحي، مع مثال رقمي.",
+    "modelAnswer": "CPI = EV/AC وSPI = EV/PV؛ قيم أقل من 1 تعني تجاوز الميزانية/التأخر. مثال: EV=80000، AC=100000 → CPI=0.8 → المشروع ينفق 1.25 ريال لكل ريال قيمة؛ الإجراء: مراجعة الأسباب، إعادة تقدير EAC = BAC/CPI، وتصحيح المسار.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "essay",
+    "textAr": "صف خطوات إدارة المخاطر من التخطيط إلى المراقبة.",
+    "modelAnswer": "تخطيط إدارة المخاطر، التحديد (سجل المخاطر)، التحليل النوعي (احتمالية/أثر)، التحليل الكمي (EMV/مونت كارلو)، تخطيط الاستجابات، تنفيذ الاستجابات، ثم المراقبة والمراجعة الدورية.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "essay",
+    "textAr": "ناقش استراتيجيات الاستجابة للمخاطر السلبية والإيجابية مع مثال لكل استراتيجية.",
+    "modelAnswer": "السلبية: التجنب (تغيير الخطة)، النقل (تأمين/عقد)، التخفيف (تقليل الاحتمال/الأثر)، القبول (احتياطي). الإيجابية: الاستغلال، المشاركة، التعزيز، القبول. مع التصعيد خارج نطاق المشروع.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "المخاطر"
+  },
+  {
+    "type": "essay",
+    "textAr": "اشرح كيف تُصنِّف أصحاب المصلحة وتخطط لإشراكهم عبر المشروع.",
+    "modelAnswer": "التحديد ثم التحليل بشبكة القوة/الاهتمام أو نموذج البروز، تحديد مستوى المشاركة الحالي والمرغوب (غير مدرك، مقاوم، محايد، داعم، قائد)، ثم خطة إشراك تحدد الرسائل والقنوات والتواتر لكل فئة.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "أصحاب المصلحة"
+  },
+  {
+    "type": "essay",
+    "textAr": "قارن بين دورة الحياة التنبؤية والرشيقة، ومتى تختار كلًا منهما.",
+    "modelAnswer": "التنبؤية: نطاق ثابت مبكر، مناسبة للمتطلبات المستقرة والتنظيمية العالية. الرشيقة: تسليم تكراري وتغذية راجعة مستمرة، مناسبة لعدم اليقين والتغير السريع. الهجينة عند اختلاط الطبيعتين.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "essay",
+    "textAr": "اشرح أدوار مالك المنتج وسكرم ماستر وفريق التطوير ومسؤوليات كل منهم.",
+    "modelAnswer": "مالك المنتج: يملك قائمة المنتج ويرتب الأولويات ويعظّم القيمة. سكرم ماستر: قائد خادم يضمن تطبيق الإطار ويزيل العوائق. الفريق: ذاتي التنظيم متعدد المهارات يسلّم زيادة قابلة للاستخدام كل سبرنت.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "المنهجيات الرشيقة"
+  },
+  {
+    "type": "essay",
+    "textAr": "ناقش أسباب زحف النطاق وكيف تقي المشروع منه.",
+    "modelAnswer": "الأسباب: متطلبات غامضة، ضعف مراقبة التغيير، إرضاء العميل بلا توثيق، غياب معايير قبول. الوقاية: بيان نطاق واضح وWBS، عملية تغيير رسمية، إشراك أصحاب المصلحة مبكرًا، والتحقق الدوري من النطاق.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "النطاق"
+  },
+  {
+    "type": "essay",
+    "textAr": "اشرح مفهوم تكلفة الجودة وعناصرها، ولماذا يُعد الاستثمار في الوقاية أجدى اقتصاديًا؟",
+    "modelAnswer": "تكلفة المطابقة (وقاية + تقييم) وتكلفة عدم المطابقة (فشل داخلي + خارجي). الوقاية أرخص لأن تكلفة العيب تتضاعف كلما اكتُشف متأخرًا وتصل إلى فقدان السمعة والضمانات.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "الجودة"
+  },
+  {
+    "type": "essay",
+    "textAr": "صف كيفية إعداد خطة اتصالات فعالة للمشروع (من، ماذا، متى، كيف، لماذا).",
+    "modelAnswer": "تحليل متطلبات أصحاب المصلحة، تحديد المعلومة والجمهور والتواتر والقناة والمسؤول والصيغة، مراعاة قنوات الاتصال n(n−1)/2، ومراجعة الخطة دوريًا وقياس فعاليتها.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "الاتصالات"
+  },
+  {
+    "type": "essay",
+    "textAr": "ناقش أساليب حل النزاعات الخمسة وأيّها الأنسب في مواقف مختلفة.",
+    "modelAnswer": "التعاون (أفضل حل دائم)، التسوية (حلول وسط)، التهدئة/التنازل (الحفاظ على العلاقة)، الإجبار (حالات الطوارئ)، الانسحاب/التجنب (تهدئة مؤقتة). الاختيار يعتمد على أهمية القضية والعلاقة والوقت.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "الموارد والفريق"
+  },
+  {
+    "type": "essay",
+    "textAr": "اشرح أنواع العقود الرئيسية وكيف توزع المخاطر بين المشتري والبائع.",
+    "modelAnswer": "السعر الثابت: المخاطر على البائع. التكلفة المسدَّدة: المخاطر على المشتري (تزداد مع نسبة من التكلفة وتقل مع الرسوم الثابتة/الحوافز). الوقت والمواد: مختلط ومناسب للأعمال قصيرة غير المحددة.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "المشتريات"
+  },
+  {
+    "type": "essay",
+    "textAr": "صف عملية مراقبة التغيير المتكاملة ولماذا هي حيوية لنجاح المشروع.",
+    "modelAnswer": "تقديم طلب التغيير كتابيًا، تحليل الأثر على النطاق والجدول والتكلفة والجودة والمخاطر، مراجعة مجلس مراقبة التغيير، الاعتماد/الرفض، تحديث خطوط الأساس والوثائق، والتبليغ. تحمي خطوط الأساس وتمنع زحف النطاق.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "التكامل"
+  },
+  {
+    "type": "essay",
+    "textAr": "ناقش كيف تبني فريقًا عالي الأداء وفق نموذج تاكمان، ودور مدير المشروع في كل مرحلة.",
+    "modelAnswer": "التشكيل: توضيح الأدوار والأهداف. الاضطراب: إدارة النزاع وبناء الثقة. الاستقرار: ترسيخ قواعد العمل. الأداء: التفويض والتمكين. الإنهاء: الاعتراف بالإنجاز وتوثيق الدروس.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "الموارد والفريق"
+  },
+  {
+    "type": "essay",
+    "textAr": "اشرح الفرق بين احتياطي الطوارئ والاحتياطي الإداري ومن يملك صلاحية صرف كل منهما.",
+    "modelAnswer": "احتياطي الطوارئ: للمخاطر المحددة، جزء من خط أساس التكلفة، يصرفه مدير المشروع. الاحتياطي الإداري: للمجهول، خارج خط الأساس وضمن ميزانية المشروع، يتطلب موافقة الإدارة/الراعي.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "التكلفة"
+  },
+  {
+    "type": "essay",
+    "textAr": "صف أنشطة إغلاق المشروع أو المرحلة، وأهمية الدروس المستفادة للمنظمة.",
+    "modelAnswer": "التحقق من اكتمال التسليمات وقبولها، إغلاق المشتريات، تحرير الموارد، التقرير النهائي، أرشفة الوثائق، وتوثيق الدروس المستفادة لتغذية أصول العمليات التنظيمية للمشاريع القادمة.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "التكامل"
+  },
+  {
+    "type": "essay",
+    "textAr": "اشرح كيفية حساب المسار الحرج بالمرور الأمامي والخلفي، وما دلالة الفائض السالب.",
+    "modelAnswer": "المرور الأمامي يحسب البداية/النهاية المبكرة، والخلفي يحسب المتأخرة؛ الفائض = LS − ES. المسار ذو الفائض صفر هو الحرج. الفائض السالب يعني أن الجدول الحالي يتجاوز التاريخ المستهدف ويحتاج ضغطًا.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "الجدول الزمني"
+  },
+  {
+    "type": "essay",
+    "textAr": "ناقش مفهوم القيادة الخادمة ودورها في نجاح الفرق الرشيقة.",
+    "modelAnswer": "القائد الخادم يركز على احتياجات الفريق: إزالة العوائق، توفير البيئة والأدوات، التدريب، وحماية الفريق من المقاطعات؛ ما يعزز التنظيم الذاتي والالتزام والجودة وسرعة التسليم.",
+    "points": 5,
+    "difficulty": "hard",
+    "competency": "المنهجيات الرشيقة"
+  }
+]
